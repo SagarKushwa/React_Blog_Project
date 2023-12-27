@@ -1,0 +1,481 @@
+.Cursor:hover{
+  cursor: pointer;
+  box-shadow: 2px 0px 5px 5px #cec8e8;
+}
+
+.Dynamic-Nav{
+  text-decoration: none;
+  color: black;
+}
+
+.Dynamic-Nav>h1{
+  font-size: 20px;
+}
+
+.Back-Button{
+  width: 20%;
+  height: 5vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 20px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.Navbar{
+  width: 100%;
+  height: 7vh;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border-bottom: 2px solid rgb(130, 130, 130); */
+  border-radius: 5px;
+  box-shadow: 0px 4px 7px 4px #cec8e8;
+  position: sticky;
+  top: 1vh;
+  z-index: 1;
+  background-color: rgb(239, 239, 239);
+  margin-top: 3vh;
+}
+
+.Navbar-Cursor{
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar-Cursor:hover{
+  border-bottom: 2px solid red;
+}
+
+.Navbar-Btn, .Navbar-Btn1{
+  visibility: hidden;
+  opacity: 0;
+}
+
+img {
+  width: 400px;
+}
+
+  .TopSection{
+    height: 60vh;
+    width: 100%;
+    margin-top: 6vh;
+    display: flex;
+    margin-bottom: 3%;
+  }
+
+  .Left-TopSection{
+    width: 57%;
+    height: 60vh;
+    /* background-color: aliceblue; */
+    position: relative;
+    background-image: url('https://www.hindustantimes.com/ht-img/img/2023/12/22/550x309/maths_c90733f9-41ae-11e5-a8da-005056b4648e_1703236942129.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 15px;
+  }
+
+  .Left-TopSection>img{
+    width: 100%;
+  }
+
+  .Left-TopSection>div{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    font-size: 12px;
+    color: #ffff;
+    width: 80%;
+    height: 25%;
+    background-color: #44424D;
+    border-radius: 5px;
+    box-shadow: 2px 0px 15px 15px #44424D;
+    padding: 10px;
+  }
+
+  .Left-TopSection>div:hover{
+    height: 30%;
+    cursor: pointer;
+  }
+
+  .Right-TopSection{
+    width: 43%;
+    height: 60vh;
+  }
+
+  .Left-Right-TopSection{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(61, 82, 75); */
+    background-image: url('https://img.freepik.com/premium-photo/food-pasta-pork-ribs-avocado-buddha-bowl-beet-salad-black-stone-background-top-view-free-space-text_187166-7546.jpg?size=626&ext=jpg');
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .Right-Right-TopSection{
+    width: 100%;
+    height: 50%;
+    /* background-color: aquamarine; */
+    background-image: url('https://www.nerdfitness.com/wp-content/uploads/2023/12/workout-mat-2048x531.jpg');
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .TopSection-Heading{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    font-size: 9px;
+    color: #ffff;
+    width: 65%;
+    height: 25%;
+    background-color: #44424D;
+    border-radius: 5px;
+    box-shadow: 2px 0px 15px 15px #44424D;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .TopSection-Heading:hover{
+    height: 35%;
+    cursor: pointer;
+  }
+
+  .Home-The-Latest{
+    height: 66vh;
+    position: relative;
+  }
+
+  .Home-The-Latest>h1{
+    margin-bottom: 2%;
+    border-bottom: 2px solid red;
+    width: fit-content;
+
+  }
+
+  .Home-The-Latest-Bottom{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Home-The-Latest-Bottom-Div{
+    height: 100%;
+    width: 24%;
+    overflow: hidden;
+  }
+
+  .Home-The-Latest-Bottom-Div>img{
+    width: 100%;
+  }
+
+  .Home-The-Latest-Bottom-Div-Content{
+    width: 95%;
+    text-align: start;
+  }
+
+  .Home-The-Latest-Bottom-Div-Content>h1{
+    font-size: 19px;
+    margin-bottom: 4px;
+  }
+
+  .Home-The-Latest-Bottom-Div-Content>p{
+    font-size: 11px;
+  }
+
+  .Home-Latest-Articles{
+    height: auto;
+    margin-top: 4vh;
+  }
+
+  .Home-Latest-Articles>h1{
+    width: fit-content;
+    border-bottom: 2px solid red;
+  }
+
+  .Home-Latest-Articles-Part{
+    height: 90%;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Home-Latest-Articles-Part-Left{
+    width: 69%;
+    height: 100%;
+  }
+  
+  .dsa{
+    height: 100%;
+    /* overflow: hidden; */
+     /*ghrhfhvliyfoiquyrnyewfqiu34ivhfvehvjhkjhgvjhh*/
+    
+  }
+
+  .Home-Latest-Articles-Part-Right{
+    /* background-color: darkolivegreen; */
+    height: 150%;
+    width: 30%;
+  }
+
+  .Demo-Card{
+    width: 100%;
+    border-top: 1px solid rgb(107, 107, 107);
+    padding: 20px;
+  }
+
+  .Home-Latest-Articles-Part-Left-Card{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .Home-Latest-Articles-Part-Left-Card>img{
+    width: 100px;
+  }
+
+  .Home-Latest-Articles-Part-Left-Card-Content{
+    width: 83%;
+  }
+
+  .Home-Latest-Articles-Part-Left-Card-Content>h1{
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+.Home-Latest-Articles-Part-Left-Card-Content>p{
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.Home-Advertistement{
+  background-image: url('https://www.adgully.com/img/400/202011/pure-milk-gowardhan.jpg');
+  background-size: cover;
+  height: 84vh;
+}
+
+.avg{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.Main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+ 
+.Main-Left{
+  width: 55%;
+}
+
+.Main-Left>h1{
+  border-bottom: 2px solid red;
+  width: fit-content;
+  margin-bottom: 3vh;
+}
+
+.Main-Right{
+  width: 43%;
+}
+
+.Main-Left-Card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Main-Left-Card>img{
+  width: 200px;
+}
+
+.Main-Left-Card-Content{
+  width: 65%;
+}
+
+.Main-Left-Card-Content>h1{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Main-Left-Card-Content>p{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.Main-Right-Top>h1{
+  border-bottom: 2px solid red;
+  width: fit-content;
+  margin-bottom: 3vh;
+}
+
+.Bollywood-Top-Post-Content{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4vh;
+  align-items: center;
+}
+
+.Bollywood-Top-Post-Content>img{
+  width: 160px;
+}
+
+.Bollywood-Top-Post-Content>div{
+  width: 330px;
+  
+}
+
+.Bollywood-Top-Post-Content>div>h1{
+  font-size: 16px;
+}
+
+.Bollywood-Top-Post-Content>div>p{
+  font-size: 10px;
+}
+
+.Advertistement{
+  /* background-image: url('https://www.gourmetads.com/wp-content/uploads/2019/05/fast-food-ads-burger-king-300x600.jpg.webp'); */
+  height: auto;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  width: 100%;
+  margin-top: 10vh;
+}
+
+/* .Fitness-Advertistement{
+  background-image: url('https://www.gourmetads.com/wp-content/uploads/2020/04/mcdelivery-300x600-contactless-delivery.png.webp');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: 10vh;
+} */
+
+/* .Hollywood-Advertistement{
+  background-image: url('https://www.gourmetads.com/wp-content/uploads/2019/05/fast-food-ads-mcdonalds-300x600.jpg.webp');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: 10vh;
+} */
+
+/* .Technology-Advertistement{
+  background-image: url('https://newspaperads.ads2publish.com/wp-content/uploads/2018/06/pantaloons-shop-even-more-upto-60-off-ad-delhi-times-23-06-2018-757x1181.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: 10vh;
+} */
+
+/* .Food-Advertistement{
+  background-image: url('https://newspaperads.ads2publish.com/wp-content/uploads/2018/10/paytm-mall-fashion-shopping-ad-deccan-chronicle-hyderabad-16-10-2018.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: 10vh;
+} */
+
+.Footer{
+  height: 50vh;
+  background-color: rgb(239, 239, 239);
+  border-radius: 5px;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Foot-Logo{
+  width: 20vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-right: 2vh;
+}
+
+.Foot-Right{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.Foot-List li{
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.Foot-Last{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.DynamicRoute-Main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DynamicRoute-Card{
+  width: 50%;
+  height: 100%;
+  align-content: center;
+}
+
+.DynamicRoute-Card>h1{
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+.DynamicRoute-Card>p{
+  /* margin-top: 2vh; */
+  margin-bottom: 1vh;
+  font-size: 15px;
+}
+
+.DynamicRoute-Card-Img{
+  display: flex;
+  justify-content: center;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+.DynamicRoute-More-Related{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DynamicRoute-More-Related-Card{
+  width: 30%;
+}
+
+.DynamicRoute-More-Related-Card>img{
+  width: 100%;
+}
+
+.DynamicRoute-More-Related-Card>h1{
+  font-size: 20px;
+}
+
+.DynamicRoute-More-Related-Card>p{
+  font-size: 12px;
+}

@@ -1,0 +1,371 @@
+@media screen and (max-width: 1200px) {
+    
+    /* for Home & Footer */
+
+
+    
+    .TopSection{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Left-TopSection{
+        height: 40vh;
+        width: 100%;
+    }
+
+    .Right-TopSection {
+        width: 100%;
+    }
+
+    .Left-TopSection>div{
+        font-size: 9px;
+        left: 4%;
+        bottom: 7%;
+        padding: 0;
+        width: 80vw;
+        height: auto;
+    }
+
+    .TopSection-Heading{
+        left: 3%;
+        width: 81vw;
+        height: auto;
+    }
+
+    .Home-The-Latest{
+        height: auto;
+    }
+
+    .Home-The-Latest-Bottom{
+        flex-direction: column;
+    }
+
+    .Home-The-Latest-Bottom-Div{
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .Home-Latest-Articles-Part{
+        flex-direction: column;
+    }
+
+    .Demo-Card{
+        padding: 0;
+        margin-bottom: 2vh;
+    }
+
+    .Home-Latest-Articles-Part-Left-Card{
+        flex-direction: column;
+        width: 90vw;
+        /* border: 2px solid red; */
+    }
+
+    .Home-Latest-Articles-Part-Left-Card>img{
+        width: 100%;
+    }
+
+    .Home-Latest-Articles-Part-Left-Card-Content{
+        width: auto;
+    }
+
+    .Home-Latest-Articles-Part-Right{
+        height: auto;
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Home-Advertistement{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: 235px 400px;
+        
+    }
+
+    .Home-Advertistement>div>img{
+        width: 100%;
+    }
+
+    .Footer{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .Foot-Right{
+        flex-direction: column;
+    }
+
+    .Foot-Logo{
+        width: 100%;
+    }
+
+    .Foot-Last{
+        flex-direction: column;
+    }
+
+    /* for Bollywood, Holywood, Fitnes, Food, Tecnology */
+   
+    .Main{
+        flex-direction: column;
+    }
+
+    .Main-Left{
+        width: 100%;
+    }
+
+    .Main-Right{
+        width: 100%;
+        height: auto;
+    }
+
+    .Main-Left-Card{
+        flex-direction: column;
+    }
+
+    .Main-Left-Card>img{
+        width: 100%;
+    }
+
+    .Main-Left-Card-Content{
+        width: 100%;
+    }
+
+    /* .Bollywood-Top-Post-Content{
+        flex-direction: column;
+       
+    } */
+
+    .Bollywood-Top-Post-Content>img{
+        width: 40%;
+    }
+
+    .Bollywood-Top-Post-Content>div{
+        width: 57%;
+        height: auto;
+    }
+
+    .Advertistement-Style{
+        height: auto;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 235px 400px;
+    }
+
+    /* .Advertistement{
+        width: 100%;
+        
+    } */
+    .Advertistement>img{
+        width: 100%;
+    }
+
+
+    /* For Individual item */
+
+    .DynamicRoute-Card{
+        width: 100%;
+    }
+
+    /* .DynamicRoute-Card-Img{
+    } */
+
+    .DynamicRoute-Card-Img>img{
+        width: 100%;
+    }
+
+    .DynamicRoute-More-Related{
+        flex-direction: column;
+    }
+
+    .DynamicRoute-More-Related-Card {
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+
+    .Back-Button{
+        width: 30%;
+    }
+
+    /* For NavBar-Responsive */
+
+    .Navbar{
+        /* flex-wrap: wrap; */
+        position: fixed;
+        top: 7vh;
+        left: 0;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        transition: 1s;
+        transform: translate(-200vh);
+        padding: 10vh 0;
+        font-weight: bold;
+
+    }
+
+    .responsive-bar{
+        transform: none;
+    }
+
+    .Navbar-Btn, .Navbar-Btn1{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .Navbar-Btn-Close{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 25px;
+        padding: 10px;
+        background-color: #cec8e8;
+        border: 2px solid #cec8e8;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        box-shadow: 0px 4px 7px 4px #cec8e8;
+    }
+
+    .Navbar-Btn1{
+        font-size: 30px;
+        /* box-shadow: 0px 4px 7px 4px #cec8e8; */
+        border: 2px solid transparent;
+        background-color: transparent;
+        margin-top: 3vh;
+    }
+
+
+ 
+}
+
+@media screen and (max-width: 500px){
+
+    .Dynamic-Nav>h1{
+        font-size: 28px;
+    }
+
+    .DynamicRoute-Card>p{
+        font-size: 15px;
+    }
+
+    .DynamicRoute-More-Related-Card>p{
+        font-size: 15px;
+    }
+
+    .Home-The-Latest-Bottom-Div-Content>p{
+        font-size: 15px;
+    }
+
+    .Home-Latest-Articles-Part-Left-Card-Content>p{
+        font-size: 15px;
+    }
+
+    .Main-Left-Card-Content>p {
+        font-size: 15px;
+    }
+    .Bollywood-Top-Post-Content>div>p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px){
+
+    .Dynamic-Nav>h1{
+        font-size: 29px;
+    }
+
+    .Main-Left>h1{
+        font-size: 35px;
+    }
+
+    .Main-Left-Card{
+        margin-bottom: 4vh;
+    }
+
+    .Main-Left-Card-Content>p{
+        font-size: 20px;
+        margin-top: 1vh;
+    }
+
+    .Bollywood-Top-Post-Content>div>h1{
+        font-size: 18px;
+    }
+
+    .Bollywood-Top-Post-Content>div>p{
+        font-size: 15px;
+    }
+
+    .DynamicRoute-Card>p{
+        font-size: 19px;
+    }
+
+    .DynamicRoute-More-Related-Card>p{
+        font-size: 18px;
+    }
+
+    .Home-The-Latest-Bottom-Div-Content>p{
+        font-size: 18px;
+    }
+
+    .Home-Latest-Articles-Part-Left-Card-Content>p{
+        font-size: 18px;
+    }
+
+    .Home-Latest-Articles-Part-Left-Card-Content>h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+
+    .Dynamic-Nav>h1{
+        font-size: 29px;
+    }
+
+    .Main-Left>h1{
+        font-size: 35px;
+    }
+
+    .Main-Left-Card{
+        margin-bottom: 4vh;
+    }
+
+    .Main-Left-Card-Content>p{
+        font-size: 20px;
+        margin-top: 1vh;
+    }
+
+    .DynamicRoute-Card>p{
+        font-size: 15px;
+    }
+
+    .DynamicRoute-More-Related-Card>p{
+        font-size: 15px;
+    }
+
+    .Home-The-Latest-Bottom-Div-Content>p{
+        font-size: 15px;
+    }
+
+    .Home-Latest-Articles-Part-Left-Card-Content>p{
+        font-size: 15px;
+    }
+
+    .Bollywood-Top-Post-Content>div>h1{
+        font-size: 28px;
+    }
+
+    .Bollywood-Top-Post-Content>div>p {
+        font-size: 20px;
+        margin-top: 1vh;
+    }
+}
